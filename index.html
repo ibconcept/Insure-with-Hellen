@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Insure with Hellen | Life & General Insurance Agent in Kitengela</title>
+    
+    <meta name="description" content="Secure your future with Hellen Mathenge. Professional Life and General Insurance services at Kitengela Mall. Get a quote today.">
+    <meta name="keywords" content="Insurance Agent Kitengela, Life Insurance Kenya, General Insurance, Hellen Mathenge, Insure with Hellen">
+    <meta name="robots" content="index, follow">
+    <meta property="og:title" content="Insure with Hellen - Professional Insurance Services">
+    <meta property="og:description" content="Expert insurance solutions for life and business at Kitengela Mall.">
+    <meta property="og:image" content="https://images.unsplash.com/photo-1450101499163-c8848c66ca85?auto=format&fit=crop&w=1200&q=80">
+    <meta property="og:url" content="https://insurewithhellen.com">
+    <meta name="geo.region" content="KE-30" />
+    <meta name="geo.placename" content="Kitengela" />
+
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "InsuranceAgency",
+      "name": "Insure with Hellen",
+      "legalName": "Hellen Mathenge",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "Kitengela Mall",
+        "addressLocality": "Kitengela",
+        "addressCountry": "KE"
+      },
+      "telephone": "+254740326625",
+      "email": "insurewithhellen@gmail.com",
+      "image": "https://images.unsplash.com/photo-1556742044-3c52d6e88c62"
+    }
+    </script>
+
+    <style>
+        :root {
+            --primary: #1a5f7a;
+            --accent: #c89d32;
+            --text: #333;
+            --light: #f4f7f6;
+        }
+
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body { font-family: 'Inter', sans-serif; color: var(--text); line-height: 1.6; background: #fff; scroll-behavior: smooth; }
+
+        /* Header & Nav */
+        header { 
+            background: #fff; 
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1); 
+            position: fixed; width: 100%; top: 0; z-index: 1000; 
+        }
+        nav { 
+            max-width: 1200px; margin: 0 auto; padding: 1rem; 
+            display: flex; justify-content: space-between; align-items: center; 
+        }
+        .logo { font-weight: 700; color: var(--primary); font-size: 1.5rem; }
+        .nav-links { display: flex; list-style: none; gap: 2rem; }
+        .nav-links a { text-decoration: none; color: var(--text); font-weight: 500; transition: 0.3s; }
+        .nav-links a:hover { color: var(--primary); }
+        
+        .hamburger { display: none; cursor: pointer; border: none; background: none; }
+
+        /* Hero Section */
+        .hero { 
+            height: 90vh; 
+            background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('https://images.unsplash.com/photo-1560518883-ce09059eeffa?auto=format&fit=crop&w=1600&q=80');
+            background-size: cover; background-position: center;
+            display: flex; align-items: center; justify-content: center; text-align: center; color: #fff;
+            padding: 0 1rem; margin-top: 60px;
+        }
+        .hero-content h1 { font-size: 3rem; margin-bottom: 1rem; }
+        .btn { background: var(--accent); color: #fff; padding: 1rem 2rem; text-decoration: none; border-radius: 5px; font-weight: 600; }
+
+        /* Sections */
+        section { padding: 5rem 1rem; max-width: 1200px; margin: 0 auto; }
+        .grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 2rem; margin-top: 2rem; }
+        .card { padding: 2rem; background: var(--light); border-radius: 10px; text-align: center; transition: 0.3s; }
+        .card:hover { transform: translateY(-5px); }
+        .material-icons { font-size: 3rem; color: var(--primary); margin-bottom: 1rem; }
+
+        /* Footer */
+        footer { background: var(--primary); color: #fff; padding: 3rem 1rem; text-align: center; }
+        .footer-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 2rem; max-width: 1200px; margin: 0 auto; text-align: left; }
+
+        /* Mobile View */
+        @media (max-width: 768px) {
+            .nav-links { display: none; width: 100%; flex-direction: column; position: absolute; top: 60px; left: 0; background: #fff; padding: 1rem; text-align: center; border-top: 1px solid #eee; }
+            .nav-links.active { display: flex; }
+            .hamburger { display: block; }
+            .hero-content h1 { font-size: 2rem; }
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <nav>
+            <div class="logo">Insure With Hellen</div>
+            <button class="hamburger" onclick="toggleMenu()">
+                <span class="material-icons">menu</span>
+            </button>
+            <ul class="nav-links" id="navLinks">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="hero" id="home">
+        <div class="hero-content">
+            <h1>Protect What Matters Most</h1>
+            <p style="margin-bottom: 2rem; font-size: 1.2rem;">Expert Life & General Insurance solutions tailored for you.</p>
+            <a href="tel:0740326625" class="btn">Get a Free Consultation</a>
+        </div>
+    </section>
+
+    <section id="services">
+        <h2 style="text-align: center;">Our Insurance Services</h2>
+        <div class="grid">
+            <div class="card">
+                <span class="material-icons">favorite</span>
+                <h3>Life Insurance</h3>
+                <p>Ensuring your family's financial security and peace of mind for the future.</p>
+            </div>
+            <div class="card">
+                <span class="material-icons">directions_car</span>
+                <h3>General Insurance</h3>
+                <p>Comprehensive cover for your motor, home, and business assets.</p>
+            </div>
+            <div class="card">
+                <span class="material-icons">business</span>
+                <h3>Business Cover</h3>
+                <p>Protecting your enterprise against unforeseen liabilities and risks.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" style="background: var(--light); border-radius: 20px;">
+        <div style="text-align: center;">
+            <h2>Visit Us Today</h2>
+            <p>Your trusted partner in Kitengela for all insurance needs.</p>
+            <div class="grid">
+                <div>
+                    <span class="material-icons">location_on</span>
+                    <p><strong>Location:</strong><br>Kitengela Mall, Kitengela</p>
+                </div>
+                <div>
+                    <span class="material-icons">phone</span>
+                    <p><strong>Call/WhatsApp:</strong><br>0740326625</p>
+                </div>
+                <div>
+                    <span class="material-icons">email</span>
+                    <p><strong>Email:</strong><br>insurewithhellen@gmail.com</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="footer-grid">
+            <div>
+                <h3>Insure With Hellen</h3>
+                <p>Professional insurance agent dedicated to excellence and customer satisfaction.</p>
+            </div>
+            <div>
+                <h3>Quick Links</h3>
+                <p><a href="#home" style="color: #fff;">Home</a></p>
+                <p><a href="#services" style="color: #fff;">Services</a></p>
+            </div>
+            <div>
+                <h3>Contact</h3>
+                <p>Hellen Mathenge</p>
+                <p>Kitengela Mall</p>
+            </div>
+        </div>
+        <hr style="margin: 2rem 0; opacity: 0.2;">
+        <p>&copy; 2026 Insure With Hellen. All Rights Reserved.</p>
+    </footer>
+
+    <script>
+        function toggleMenu() {
+            const nav = document.getElementById('navLinks');
+            nav.classList.toggle('active');
+        }
+        
+        // Close menu on click
+        document.querySelectorAll('.nav-links a').forEach(link => {
+            link.addEventListener('click', () => {
+                document.getElementById('navLinks').classList.remove('active');
+            });
+        });
+    </script>
+</body>
+</html>
